@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ivy Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Privacy policy</h1>
+<p><em>Last updated: 27 October 2026</em></p>
+<p>Ivy Companion ("Ivy") is a personal assistant used only by its developer on their own computer. This policy covers the Google user data Ivy accesses.</p>
+<h2>Data accessed</h2>
+<p>Ivy requests read-only access to Google Calendar (<code>https://www.googleapis.com/auth/calendar.readonly</code>): the list of calendars and the events on them (titles, times, locations, descriptions and attendee response status).</p>
+<h2>How it is used</h2>
+<p>Calendar data is used only to answer the user's own questions about their schedule and to include upcoming events in the assistant's context. It is not used for advertising, profiling, or training AI models.</p>
+<h2>Storage</h2>
+<p>The OAuth refresh token is stored in a file on the user's own Mac, readable only by that user. Event data is fetched on demand and held briefly in memory; it is not kept in any database or on any server operated by Ivy.</p>
+<h2>Sharing</h2>
+<p>Google user data is not sold or shared with third parties. To answer a question, relevant event details may be sent as part of the prompt to the AI model provider the user has configured (for example Anthropic), under that provider's terms; that provider does not get access to the Google account.</p>
+<h2>Limited Use</h2>
+<p>Ivy's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<h2>Revoking access</h2>
+<p>Access can be revoked at any time from <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> or by running <code>ivy google logout</code>, which also deletes the stored token.</p>
+<h2>Contact</h2>
+<p>Questions: <a href="https://github.com/santigraviano">github.com/santigraviano</a>.</p>
+<footer><a href="index.html">Ivy Companion home</a></footer>
+</body>
+</html>
